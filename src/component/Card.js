@@ -2,8 +2,9 @@ import React, {useEffect, useState} from 'react';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faBagShopping, faHeart, faCheck} from "@fortawesome/free-solid-svg-icons";
 import {useDispatch, useSelector} from "react-redux";
-// import {ADD_TO_BASKET} from "../redux/types";
+
 import {addToBasket, deleteFromBasket, deleteWishlist, likedProduct} from "../redux/actions";
+
 
 const Card = ({product}) => {
     const dispatch = useDispatch()
@@ -64,6 +65,7 @@ const Card = ({product}) => {
                 </div>
             </div>
         </div>
+
     );
 };
 

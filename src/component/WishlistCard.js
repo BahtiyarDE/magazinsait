@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from "./card";
+import Card from "./Card";
 import {useDispatch, useSelector} from "react-redux";
 import {ADD_TO_BASKET} from "../redux/types";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
